@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 # Variable(s)
-scriptPath=$(pwd)
+scriptPath=$(realpath $(dirname ${0}))
 commandPath=$(which xwallpaper)
 option=--stretch
 wallpaperName=wallpaper.png
