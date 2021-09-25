@@ -56,3 +56,9 @@ This will run the `set-random-wallpaper.sh` script in every 15 minutes.
 - 1:00, etc.
 
 Open up [crontab guru](https://crontab.guru), if you want to change that schedule.
+
+### Gnome Display Manager (GDM) wallpaper
+
+If you want to change the background of your GDM, I recommend the following repository:
+
+[thiggy01/change-gdm-background](https://github.com/thiggy01/change-gdm-background)
