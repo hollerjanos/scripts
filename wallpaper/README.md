@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This scripts can help you change & load your wallpaper.
+This scripts can help you to change & load your wallpaper easily.
 
 In the current stage all of the screens will be changed at once.
 
