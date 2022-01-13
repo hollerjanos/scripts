@@ -96,7 +96,6 @@ while [ true ]; do
 
     batteryLevel=3
 
-
   # Very low
   elif [ ${batteryStatus} == "Discharging" ] &&
        [ ${batteryCapacity} -le 5 ] &&
@@ -104,6 +103,7 @@ while [ true ]; do
 
     batteryLevel=1
     notify "critical" 0 "Battery is very low!"
+
   # Low
   elif [ ${batteryStatus} == "Discharging" ] &&
        [ ${batteryCapacity} -le 15 ] &&
@@ -114,6 +114,8 @@ while [ true ]; do
     notify "normal" 5000 "Battery is low!"
 
   fi
+
+  echo "${batteryCapacity}%"
 
   # Wait
   sleep 15
