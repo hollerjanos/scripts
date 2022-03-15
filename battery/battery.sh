@@ -115,7 +115,7 @@ while [ true ]; do
 
   fi
 
-  echo "${batteryCapacity}% - ${batteryStatus}"
+  echo " ${batteryCapacity}% - ${batteryStatus}"
 
   # Wait
   sleep 1
